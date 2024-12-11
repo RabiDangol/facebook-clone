@@ -1,0 +1,157 @@
+.container{
+    position: center;
+    background-color:white;
+    border: #ccc solid 1px 1px 1px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 100px;
+    height: 80px
+}
+body{
+    background-color: white;
+    font-family:Arial, sans-serif ;
+    height: fit-content;
+}
+.pag h2{
+    font-size: 40px;
+    font-family: arial,sans-serif;
+    font-weight: 300;
+    color: blue;
+    display: flex;
+}
+.face{
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-between;
+}
+.pa img{
+    width: 40px;
+    padding-top: 30px;
+}
+.home img{
+    width: 60px;
+    margin-bottom: 20px;
+    display: inline-block;
+    justify-content: space-around;
+
+}
+.post img{
+    border-radius: 50%;
+    width: 80px;
+    height: 40px;
+}
+.home{
+    border-bottom: black solid 1px;
+    height:80px;
+    width: 100%;
+}
+    .photo{
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px;
+    border-bottom: gray solid 4px;
+    height: 80px;
+    align-items: center;
+    gap: 10px;
+}
+.what input{
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 10px;
+}
+.what{
+    width: 100%;
+}
+.forFlex{
+    display: flex;
+    width: 100%;
+}
+.navbar{
+    position: static;
+    background-color: white;
+    width: 100%;
+
+}
+.photo img{
+    width: 40px;
+}
+.story{
+   box-sizing: border-box;
+   display: flex;
+   margin-top: 20px;
+   border-bottom: gray solid 10px;
+   justify-content:safe;
+   background-color: gray;
+}
+.str img{
+    width: 100px;
+    border:black solid 1px;
+    margin: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.id{
+    border-radius: 20px;
+    border: black solid 1px ;
+    width:102px;
+    padding-bottom: 50px;
+}
+.like:hover{
+    color:red;
+    transition: 0.2s ease-in-out;
+}
+.str h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.mile img{
+    width:200px;
+    border-radius: 20px;
+    border: gray solid 2px;
+    height: 350px;
+    }
+.splas img{
+        width:200px;
+        border-radius: 20px;
+        border: gray solid 2px;
+        height: 350px
+}
+  .name{
+    
+    box-sizing: border-box;
+    height: 50px;
+
+  } 
+  .user img{
+    width: 4em;
+    margin-bottom: 20px;
+    display: inline-block;
+    justify-content: space-around;
+    border-radius: 1000%;
+    height: 40px;
+    
+    
+  }    
+  .user h5{
+    font-size: small;
+    font-weight: 600;
+    text-align: left;
+    padding-right: 200px;
+  } 
+  .user{
+    box-sizing: border-box;
+    display:-webkit-inline-box;
+    justify-content: space-around;
+    align-items:center;
+  }
+  .liked img{
+    width: 60px;
+    display: inline-block;
+    background-color:white;
+    justify-content: space-between;
+    margin: auto;
+  }
